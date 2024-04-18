@@ -1,0 +1,531 @@
+html {
+    background-image: url(hetag.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: min-content;
+}
+
+.body {
+    margin: 0 auto;
+    background-color: #e2e2e2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.conteiner {
+    width: 1300px;
+    margin: auto;
+}
+
+.header {
+    position: relative;
+    z-index: 9999;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 150px;
+}
+
+.nav-item2 {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 100px;
+    transition: color 0.3s linear;
+}
+
+.nav-item2:hover {
+    color: #4a4242;
+}
+
+.nav-merch {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 100px;
+    background-color: #fff;
+    padding: 14px 30px;
+    border-radius: 50px;
+    transition: background-color 0.2s linear;
+
+}
+
+.nav-merch:hover {
+    background-color: #ddd6d6f5;
+}
+
+.header-line {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.socaill-line {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+
+.socaill {
+    color: #fff;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+
+
+.burger {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: url(burger.png) no-repeat;
+    background-size: contain;
+    display: none;
+}
+
+.header-concert {
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.concert {
+    text-decoration: none;
+    color: #fff;
+    font-size: 46px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+}
+
+.moscow {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 40px;
+    font-family: 'Tinos', serif;
+}
+
+.show-data {
+    background-color: black;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Tinos', serif;
+}
+
+.table {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    max-height: 100px;
+    gap: 20px;
+    max-width: 1800px;
+    padding: 20px;
+}
+
+.show {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.data-month {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    color: #fff;
+}
+
+.place {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.ticket-href {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    border: 1px solid rgb(32, 9, 208);
+    padding: 10px;
+    transition: 1.2s;
+}
+
+.ticket-href:hover {
+    transform: scale(1.5);
+}
+
+.video-title {
+    text-decoration: none;
+    color: rgb(32, 9, 208);
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Tinos', serif;
+}
+
+.video-content {
+    gap: 30px;
+    display: inline-block;
+    justify-content: center;
+}
+
+/*.video {
+    gap: 30px;
+    display: grid;
+    justify-items: center;
+}
+*/
+
+.video-holder {
+    position: relative;
+}
+
+.video-youtube {
+    margin: 30px 30px;
+    transition: 1.5s;
+    border-radius: 10px;
+}
+
+.video-youtube:hover {
+    transform: scale(1.2);
+}
+
+
+
+.button-video {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Tinos', serif;
+
+
+}
+
+.button {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(32, 9, 208);
+    padding: 20px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s linear;
+}
+
+
+.button:hover {
+    background-color: #9499f4f5;
+}
+
+
+
+.connect {
+    text-decoration: none;
+    color: #1f1c8e;
+    font-size: 75px;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    padding: 130px;
+}
+
+.connect-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vk-connect {
+    width: 250px;
+    height: 250px;
+    border-radius: 35px;
+}
+
+.youtube-connect {
+    width: 250px;
+    height: 250px;
+    border-radius: 35px;
+}
+
+.tg-connect {
+    width: 250px;
+    height: 250px;
+    border-radius: 35px;
+}
+
+.boosty-connect {
+    width: 250px;
+    height: 250px;
+    border-radius: 35px;
+}
+
+.cooper {
+    text-decoration: none;
+    color: #1f1c8e;
+    font-size: 40px;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.email-footer {
+    color: #1f1c8e;
+    font-size: 40px;
+    font-family: 'Tinos', serif;
+    text-align: center;
+}
+
+.email {
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 1280px) {
+    .burger {
+        display: flex;
+        width: 120px;
+        height: 120px;
+        right: 100px;
+        background-size: contain;
+        position: fixed;
+    }
+
+    .connect-social {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .vk-connect,
+    .youtube-connect,
+    .tg-connect,
+    .boosty-connect {
+        width: 200px;
+        height: 200px;
+    }
+
+    .nav-item,
+    .nav-merch,
+    .nav-item2,
+    .socaill {
+        display: none;
+    }
+
+    .concert,
+    .header-concert {
+        font-size: 120px;
+        text-align: center;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .video-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 500px);
+    }
+
+    .body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .video-youtube {
+        width: 84%;
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+
+    /*.container {
+        width: 50vw;
+        height: 50vh;
+    }*/
+}
+
+
+@media (max-width: 900px) {
+    .burger {
+        display: flex;
+        width: 120px;
+        height: 120px;
+        background-size: contain;
+        position: fixed;
+    }
+
+    .body {
+        height: 100%;
+    }
+
+    .video-title {
+        font-size: 60px;
+        text-align: center;
+        margin-block: auto;
+    }
+
+    .concert,
+    .header-concert {
+        font-size: 120px;
+        text-align: left;
+        align-items: left;
+        justify-content: left;
+    }
+
+    .button-video,
+    .button {
+        font-size: 25px;
+        align-items: center;
+    }
+
+    .show,
+    .data-month,
+    .place,
+    .time,
+    .ticket,
+    .moscow {
+        font-size: 40px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .nav-item,
+    .nav-merch,
+    .nav-item2,
+    .socaill {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        object-fit: cover;
+    }
+
+    .show,
+    .data-month,
+    .place,
+    .time,
+    .ticket,
+    .moscow {
+        font-size: 40px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .video-youtube {
+        height: 500px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .video-title {
+        font-size: 60px;
+
+    }
+
+    .concert,
+    .header-concert {
+        font-size: 80px;
+        text-align: right;
+        margin-block: auto;
+    }
+
+    .container {
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .concert {
+        font-size: 120px;
+    }
+
+    .show,
+    .data-month,
+    .place,
+    .time,
+    .ticket,
+    .moscow {
+        font-size: 40px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .button-video,
+    .button {
+        font-size: 25px;
+        text-align: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 429px) {
+
+    .show,
+    .data-month,
+    .place,
+    .time,
+    .ticket,
+    .moscow {
+        font-size: 40px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+@media (max-width: 420px) {
+    html {
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+    }
+}
